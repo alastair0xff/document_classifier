@@ -36,6 +36,12 @@ Without including logic for the 'other' class, we get an accuracy of about
 is added, we get a small performance hit, dropping by 0.0194, with further
 details provided below.
 
+The model has generally very good performance as shown by the F1 scores.  By
+including the 'other' class, we do capture the few test examples that aren't
+part of the regular class list, but we do get a number of false positives; 
+a handful of documents are misclassified as 'other', as show by its' low
+precision.
+
 ```
 Accuracy: 0.9174757281553398
 Difference from previous model: -0.0194
