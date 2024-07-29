@@ -1,0 +1,5 @@
+{
+    "model_file": "tfidf_model.pkl",
+    "vectorizer_file": "tfidf_vectorizer.pkl",
+    "other_threshold": 0.08609888182706918
+}
